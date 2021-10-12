@@ -98,13 +98,15 @@ body {
     margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-weight: 700;
     line-height: 1.4em;
 }
 
 .profile h1 span {
     font-size: 0.8em;
-    font-weight: 300;
+    font-weight: 500;
+    color: var(--third-color);
 }
 
 .contactInfo {
@@ -127,7 +129,6 @@ body {
     position: relative;
     list-style: none;
     margin: 10px 0;
-    cursor: pointer;
 }
 
 .contactInfo ul li .icon {
@@ -156,6 +157,7 @@ body {
     color: var(--just-white);
     font-weight: 300;
 }
+
 .contactInfo.education h4:nth-child(2) {
     color: var(--just-white);
     font-weight: 500;
@@ -181,6 +183,15 @@ body {
     left: 0;
     height: 100%;
     background: var(--secondary-color);
+    border-radius: 0 5px 5px 0;
+}
+
+.contactInfo.hobbies {
+    color: var(--just-white);
+    font-weight: 500;
+}
+.contactInfo.hobbies li {
+    margin-bottom: 15px;
 }
 
 .container .right_Side {
@@ -248,7 +259,7 @@ p {
     position: relative;
     width: 100%;
     height: 10px;
-    background: var(--grey);
+    background: var(--just-white);
 }
 
 .skills .box .percent div {
