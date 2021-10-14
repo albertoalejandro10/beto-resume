@@ -223,6 +223,7 @@ body {
 
 p {
     color: #999;
+    text-align: justify;
 }
 
 .principal__text {
